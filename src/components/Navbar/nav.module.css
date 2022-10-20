@@ -1,0 +1,38 @@
+.navbar{
+   
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin: auto;
+}
+.Innavbar{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 50px;
+}
+.logoContainer{
+    display: flex;
+    width: 390px;
+    height:100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.btnContainer{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+@media screen and (max-width:780px){
+    .Innavbar{
+        display: none;
+    }
+}
